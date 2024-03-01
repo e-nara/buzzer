@@ -8,4 +8,5 @@ function playSound() {
     const audio = new Audio('buzzer.mp3');
     console.log("ouch");
     audio.play();
+    confetti();
 }
